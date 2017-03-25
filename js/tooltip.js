@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".masterTooltip").hover(function(){var t=$(this).attr("title");$(this).data("tipText",t).removeAttr("title"),$('<p class="tooltip"></p>').text(t).appendTo("body").fadeIn("slow")},function(){$(this).attr("title",$(this).data("tipText")),$(".tooltip").remove()}).mousemove(function(t){var o=t.pageX+20,e=t.pageY+10;$(".tooltip").css({top:e,left:o})})});
