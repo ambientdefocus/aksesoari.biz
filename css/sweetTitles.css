@@ -1,5 +1,0 @@
-/* Fading Tooltips By Dustin Diaz*/
-body div#toolTip { position: absolute; z-index: 1200; width: 245px; background: url(images/favicon.png) top left no-repeat #404d26; border: 1px solid #A16100; text-align: left; padding: 2px 5px 2px 5px; min-height: 1em; }
-body div#toolTip p { margin:0; padding:0; text-align: left; line-height: 1.2em; color: #ffffff; width: 245px; font-size: 70%; font-family: 'Trebuchet MS', Verdana, Arial, Helvetica, 'Lucida Sans', 'Lucida Sans Unicode', sans-serif; }
-body div#toolTip p em { display: block; margin-top: 0px; width: 245px; color:#9fa09c; font-style: normal; }
-body div#toolTip p em span { color: #687d3d; }
